@@ -5,6 +5,9 @@ using System.Text;
 
 namespace LeetCode
 {
+    /// <summary>
+    /// Given a N by M matrix of numbers, print out the matrix in a clockwise spiral.
+    /// </summary>
     public class ClockwiseSpiral
     {
         public List<int> Solve(List<List<int>> matrix)
