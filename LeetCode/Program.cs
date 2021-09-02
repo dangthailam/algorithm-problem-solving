@@ -7,6 +7,11 @@ namespace LeetCode
         static void Main(string[] args)
         {
             new ClockwiseSpiral().Test();
+
+            new ThreeSumClosest().Test();
+           
+
+            Console.ReadLine();
         }
     }
 }
