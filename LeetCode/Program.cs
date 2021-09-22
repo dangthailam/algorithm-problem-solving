@@ -8,6 +8,7 @@ namespace LeetCode
         {
             //new ClockwiseSpiral().Test();
             //new LongestPalindromSubstring().Test();
+            //new ThreeSum().Test();
 
 
             Console.ReadLine();
