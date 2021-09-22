@@ -8,7 +8,4 @@
   <ItemGroup>
     <None Remove="DataStructure\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataStructure\" />
-  </ItemGroup>
 </Project>
