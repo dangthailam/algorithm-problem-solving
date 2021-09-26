@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace LeetCode
 {
     public class MaxAreaOfIsland
     {
-        private int[][] directions = new int[4][]
+        private readonly int[][] directions = new int[4][]
         {
             new int[] { 0, 1 },
             new int[] { 1, 0 },
