@@ -1,47 +1,30 @@
-﻿//using System;
-//namespace LeetCode
-//{
-//    public class PermutationInString
-//    {
-//        public bool Solve(string s1, string s2)
-//        {
-//            if (s1.Length > s2.Length) return false;
+﻿using System;
+namespace LeetCode
+{
+    public class PermutationInString
+    {
+        public bool Solve(string s1, string s2)
+        {
+            if (s1.Length > s2.Length) return false;
 
-//            int x = 0, y = s1.Length;
+            int x = 0, y = s1.Length;
 
-<<<<<<< Updated upstream
-//            while(x <= s2.Length - y)
-//            {
-//                var subString = s2.Substring(x, y);
-//                if (IsPermutation(subString, s2))
-//                    return true;
-//                x++;
-//            }
-=======
-            while(x <= s2.Length - y)
+            while (x <= s2.Length - y)
             {
                 var subString = s2.Substring(x, y);
                 if (IsPermutation(subString, s1))
                     return true;
                 x++;
             }
->>>>>>> Stashed changes
 
-//            return false;
+            return false;
             
-//        }
+        }
 
-<<<<<<< Updated upstream
-//        public bool IsPermutation(string s1, string s2)
-//        {
-//            if (s1.Length != s2.Length)
-//                return false;
-=======
         public bool IsPermutation(string str1, string str2)
         {
             if (str1.Length != str2.Length)
                 return false;
->>>>>>> Stashed changes
 
             int NO_OF_CHARS = 256;
 
@@ -67,6 +50,6 @@
                     return false;
             return true;
 
-//        }
-//    }
-//}
+        }
+    }
+}
